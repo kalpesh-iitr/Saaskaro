@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter,Onest } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
+const onest = Onest({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SaaS-Karo",
@@ -16,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={onest.className}><Navbar/>{children}</body>
     </html>
   );
 }

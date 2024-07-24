@@ -31,3 +31,40 @@ body {
     text-wrap: balance;
   }
 }
+
+.blue_btn{
+  width: 100%;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+  background-color: #00A3FF;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+.white_btn{
+  width: 100%;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 5px;
+  color: #00A3FF;
+  border-color: #00A3FF;
+  border-width:2px ;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.headingLarge {
+  font-size: 56px;
+  font-weight: 600;
+  color: black;
+}
+
+.paraStyle {
+  font-size: 32px;
+  font-weight: 500;
+  color: black;
+}
