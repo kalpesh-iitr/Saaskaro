@@ -26,7 +26,7 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
-        <div className="flex font-semibold text-2xl">Ease of Use</div>
+        <div className="flex font-semibold text-2xl">Efficency</div>
         <div className="flex font-medium text-base text-[#808080]">Intuitive interface that anyone can use without technical knowledge.</div>
       </div>
       <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
