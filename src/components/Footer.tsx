@@ -16,7 +16,7 @@ export const Footer=()=>{
                     />
                 </div>
                 <div className="flex text-sm text-[#808080] mb-24">SaasKaro is a cutting-edge billing and inventory management software designed specifically for small and medium-sized enterprises (SMSEs) and micro, small, and medium enterprises (MSMEs). Our platform simplifies your business operations by automating billing, tracking inventory, and providing insightful analytics, all in one intuitive interface.</div>
-                <div className="flex text-sm text-[#000000]">©2024 Furnate, Inc. All Rights Reserved.</div>
+                <div className="flex text-sm text-[#000000]">©2024 Saaskaro, Inc. All Rights Reserved.</div>
             </div>
             <div className="flex flex-col inline-block">
                 <Link href="/about">Features</Link>
@@ -26,9 +26,9 @@ export const Footer=()=>{
                 </Link>
                 <Link href="/privacy-policy">Contact Us</Link>
             </div>
-            <div className="flex flex-col">
-                <Link href="/contact">Terms of Service</Link>
+            <div className="flex flex-col inline-block">
                 <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/contact">Terms of Service</Link>
             </div>
         </footer>
       );
