@@ -13,6 +13,7 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
+        
         <div className="flex font-semibold text-2xl">Ease of Use</div>
         <div className="flex font-medium text-base text-[#808080]">Intuitive interface that anyone can use without technical knowledge.</div>
       </div>
@@ -26,6 +27,7 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
+        
         <div className="flex font-semibold text-2xl">Efficency</div>
         <div className="flex font-medium text-base text-[#808080]">Automate billing and inventory to save time and reduce errors</div>
       </div>
@@ -53,7 +55,7 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
-        
+
         <div className="flex font-semibold text-2xl">Support</div>
         <div className="flex font-medium text-base text-[#808080]">24/7 customer support to help you whenever you need it.</div>
       </div>

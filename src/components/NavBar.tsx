@@ -21,10 +21,7 @@ const Navbar = () => {
         </div>
         <div className="text-[#808080] space-x-16 font-medium text-base">
           <Link href="/products">
-            Products 
-          </Link>
-          <Link href="/">
-            Pricing
+            Products
           </Link>
           <Link href="/">
             About Us
