@@ -26,7 +26,7 @@ export const Footer=()=>{
                 </Link>
                 <Link href="/privacy-policy">Contact Us</Link>
             </div>
-            <div className="flex flex-col inline-block">
+            <div className="flex flex-col inline-block w-64">
                 <Link href="/privacy-policy">Privacy Policy</Link>
                 <Link href="/contact">Terms of Service</Link>
             </div>
