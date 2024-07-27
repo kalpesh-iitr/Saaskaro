@@ -1,5 +1,7 @@
 "use client"
 import Button from "@/components/Button";
+import { CardsComponent } from "@/components/CardsComponent";
+import { Footer } from "@/components/Footer";
 import HomePageComponent from "@/components/HomePageComponent";
 import Image from "next/image";
 
@@ -38,6 +40,8 @@ export default function Home() {
       </div> 
     </div>
     <HomePageComponent/>
+    <CardsComponent/>
+    <Footer/>
   </>
   );
 }

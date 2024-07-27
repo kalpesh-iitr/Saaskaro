@@ -5,7 +5,7 @@ function HomePageComponent() {
     const handleGetStarted=()=>{
         console.log("asas");
     }
-  return (
+  return (<>
     <div className="bg-[#ffffff] px-6 md:px-28 flex flex-col justify-between items-center">
       <div className="flex text-black w-full headingLarge mb-4">What We Do?</div>
       <div className="flex flex-col md:flex-row w-full items-center md:items-start">
@@ -28,6 +28,7 @@ function HomePageComponent() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
