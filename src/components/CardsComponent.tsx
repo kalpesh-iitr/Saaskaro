@@ -39,6 +39,7 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
+
         <div className="flex font-semibold text-2xl">Scalabilty</div>
         <div className="flex font-medium text-base text-[#808080]">Grow your business with a solution that scales with you.</div>
       </div>
@@ -52,8 +53,9 @@ export const CardsComponent=()=>{
             className="relative"
           />
         </div>
+        
         <div className="flex font-semibold text-2xl">Support</div>
-        <div className="flex font-medium text-base text-[#808080]">24/7 </div>
+        <div className="flex font-medium text-base text-[#808080]">24/7 customer support to help you whenever you need it.</div>
       </div>
     </div>
     </div>;
