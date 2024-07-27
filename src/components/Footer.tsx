@@ -19,7 +19,7 @@ export const Footer=()=>{
                 <div className="flex text-sm text-[#000000]">©2024 Saaskaro, Inc. All Rights Reserved.</div>
             </div>
             <div className="flex flex-col inline-block">
-                <Link href="/about">Features</Link>
+                <Link href="/about">Products</Link>
                 <Link href="/contact">Pricing</Link>
                 <Link href="/privacy-policy">
                     <div className="inline-block flex">About Us</div>
