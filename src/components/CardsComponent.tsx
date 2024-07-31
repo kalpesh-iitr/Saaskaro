@@ -23,8 +23,17 @@ export const CardsComponent = () => {
             Intuitive interface that anyone can use without technical knowledge.
           </div>
         </div>
+<<<<<<< HEAD
         <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
           <div className="flex mb-6">
+=======
+        
+        <div className="flex font-semibold text-2xl">Ease of Use</div>
+        <div className="flex font-medium text-base text-[#808080]">Intuitive interface that anyone can use without technical knowledge.</div>
+      </div>
+      <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
+        <div className="flex mb-6">
+>>>>>>> 8631d7d8ea6778a0620b92d8e0261fa51efaaee6
             <Image
               src="/star-icon.svg"
               width={20}
@@ -40,8 +49,17 @@ export const CardsComponent = () => {
             Automate billing and inventory to save time and reduce errors.
           </div>
         </div>
+<<<<<<< HEAD
         <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
           <div className="flex mb-6">
+=======
+        
+        <div className="flex font-semibold text-2xl">Efficency</div>
+        <div className="flex font-medium text-base text-[#808080]">Automate billing and inventory to save time and reduce errors</div>
+      </div>
+      <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
+        <div className="flex mb-6">
+>>>>>>> 8631d7d8ea6778a0620b92d8e0261fa51efaaee6
             <Image
               src="/star-icon.svg"
               width={20}
@@ -57,8 +75,17 @@ export const CardsComponent = () => {
             Grow your business with a solution that scales with you.
           </div>
         </div>
+<<<<<<< HEAD
         <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
           <div className="flex mb-6">
+=======
+
+        <div className="flex font-semibold text-2xl">Scalabilty</div>
+        <div className="flex font-medium text-base text-[#808080]">Grow your business with a solution that scales with you.</div>
+      </div>
+      <div className="flex p-6 flex-col items-center md:items-start border rounded-lg">
+        <div className="flex mb-6">
+>>>>>>> 8631d7d8ea6778a0620b92d8e0261fa51efaaee6
             <Image
               src="/star-icon.svg"
               width={20}
@@ -74,6 +101,12 @@ export const CardsComponent = () => {
             24/7 customer support to help you whenever you need it.
           </div>
         </div>
+<<<<<<< HEAD
+=======
+
+        <div className="flex font-semibold text-2xl">Support</div>
+        <div className="flex font-medium text-base text-[#808080]">24/7 customer support to help you whenever you need it.</div>
+>>>>>>> 8631d7d8ea6778a0620b92d8e0261fa51efaaee6
       </div>
     </div>
   );
